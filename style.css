@@ -1,0 +1,55 @@
+ :root {
+  --clr1: #000000;
+  --clr2: #ffffff;
+  --clr3: #4E47FF;
+}
+
+body{
+    color: var(--clr1);
+    font-family: 'Raleway', sans-serif;
+
+}
+ 
+ .logo {
+  font: bold 34px 'Inter', sans-serif;
+  color: var(--clr3);
+}
+
+ button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color:var(--clr3);;
+  color:  var(--clr2);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.nav {
+  background-image: url('Assets/Hero-bg.png');
+  background-size: cover;
+  background-position: center;
+  height: 698px;
+  width: 100%;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+
+.text-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text-content p {
+font-size: 65px;
+font-weight: 700;
+}
